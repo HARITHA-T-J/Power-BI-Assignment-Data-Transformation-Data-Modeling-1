@@ -21,7 +21,9 @@ Grouping and Aggregating Data:
 ●	Duplicate the “Order Details” table and calculate the count of each Order ID, average profit by Category or total amount by Sub-Category-refrence the order details table and renamed order status - select group by- select advanced-add grouping -new column named count-operation count rows,group by category-column named avg profit-avg operation-column-profit,groupby total amount-operation sum-coulumn sum-ok.
 ●	Duplicate the “Sales Target” table and aggregate the total target amount by Month of Order Date-refrence the sales target table named monthly sales target-groupby month of oder date a new coulumn named total target -operation sum-column taget-ok.
 Data Modeling:
-●	Establish a relationship between the “List of Orders” and “Order Details” tables using the ‘Order ID’ column.
+●	Establish a relationship between the “List of Orders” and “Order Details” tables using the ‘Order ID’ column-in power bi take model view on the left drag list of orders and order details -cardinality one to many-- Cross-filter direction: Single- Make this relationship active: Checked-click ok
+●	Build a relationship between the “Order Details” and “Sales Target” tables based on the ‘Category’ column. Click "Manage relationships" and ensure this relationship is active-in power bi take model view on the left drag sales target and order details -cardinality many to many-- Cross-filter direction-both click apply changes.go to home-manage relationships confirm both the Order ID relationship and the category relationships are listed.Check that each is Active.
+
 
 
 
